@@ -30,7 +30,9 @@ METHODS
 Graph theory provides a mathematical framework to model the brain as a 
 network of nodes (neurons or brain regions) and edges (connections). This 
 project employs various graph theory parameters to study brain connectivity in 
-Alzheimer’s and Parkinson’s patients, including:
+Alzheimer’s and Parkinson’s patients, 
+including:
+
         • Clustering Coefficient (C): Measures the number of connections that 
         exist between the nearest neighbors of a node as a proportion of the 
         maximum number of possible connections. It reflects the tendency of a 
@@ -107,6 +109,7 @@ INFERENCE
 
 An assortativity coefficient of approximately -0.056 indicates a slight 
 negative assortativity in the graph. Here’s what this means:
+
         1.  Negative Assortativity: A negative assortativity coefficient suggests 
         that nodes with high degrees (nodes with many connections) are more 
         likely to be connected to nodes with low degrees (nodes with fewer 
@@ -127,7 +130,8 @@ negative assortativity in the graph. Here’s what this means:
         properties similar to both regular lattices (high clustering) and random 
         graphs (short average path lengths). Typically, a value of \omega between 
         -0.5 and 0.5 is indicative of a small-world network.
-        CONCLUSION
+        
+CONCLUSION
 
 This project demonstrates the utility of graph theory in analyzing brain 
 connectivity and highlights the potential of electrophysiological techniques as 
